@@ -1,0 +1,19 @@
+.section {
+  position: absolute;
+}
+.intro {
+  right: 2rem;
+  max-width: 350px;
+  height: calc(100vh - 4rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.testLayout {
+  height: calc(100vh - 4rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 8vw;
+}

@@ -1,16 +1,32 @@
+@font-face {
+  font-family: NeutralFace;
+  src: local("outward"), url("/fonts/NeutralFace.otf") format("opentype");
+  font-weight: 700;
+}
+
+html,
+body,
+#__next {
+  height: 100%;
+}
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Work Sans", Helvetica Neue, sans-serif;
 }
 
 a {
-  color: inherit;
+  color: currentColor;
   text-decoration: none;
 }
-
+p {
+  line-height: 1.25;
+}
 * {
   box-sizing: border-box;
+}
+
+.link {
+  font-weight: 500;
 }
